@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>おみくじ練習</title>
+</head>
+
+<body>
+  <script>
+    // 0から４までの乱数
+    const randomNumber = Math.floor(Math.random() * 5);
+    if (randomNumber == 0) {
+      alert("大吉");
+    } else if (randomNumber == 1) {
+      alert("中吉");
+    } else if (randomNumber == 2) {
+      alert("小吉");
+    } else if (randomNumber == 3) {
+      alert("凶");
+    } else if (randomNumber == 4) {
+      alert("大凶");
+    } else {
+      alert("エラー");
+    }
+    // ミスがないか確認するために条件外でもelseは記載するといい
+  </script>
+
+</body>
+
+</html>
